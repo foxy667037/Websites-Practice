@@ -1,0 +1,259 @@
+/* Button Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Anton+SC&family=Asap:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap");
+
+/* LOGO fonts */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+/* Navbar_Links Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Main Page Heading h1 Font */
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+/* Header  */
+#header {
+  top: 0px;
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #d268cd8e;
+}
+
+/* Navbar */
+#header-navbar {
+  width: 95%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+/* Logo */
+.navbar-logo {
+  height: 7vh;
+  width: 14vw;
+  display: flex;
+  cursor: pointer;
+  margin-left: 50px;
+  align-items: center;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+}
+
+.logo {
+  width: 3vw;
+  height: 6vh;
+  display: flex;
+  color: #d268cc;
+  font-size: 1.3em;
+  margin-left: 0px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(235, 232, 232, 0.747);
+}
+
+/* Navbar-Logo-Heading & paragraph */
+.heading {
+  width: 10vw;
+  height: 7vh;
+  /* border: 1px solid black; */
+}
+
+/* heading */
+.heading h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #d268cc;
+  font-style: normal;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* paragraph */
+.heading p {
+  font-size: 0.9em;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(53, 51, 51, 0.515);
+  font-family: "Hind Madurai", sans-serif;
+}
+
+/* links */
+.navbar-links {
+  gap: 50px;
+  height: 7vh;
+  width: 40vw;
+  display: flex;
+  cursor: pointer;
+  margin-right: 0px;
+  align-items: center;
+  box-sizing: border-box;
+  list-style: none;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+/* Links Lists */
+.navbar-links li {
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-family: "Urbanist", sans-serif;
+}
+.navbar-links li::before {
+  top: 0px;
+  width: 0%;
+  content: "";
+  height: 100%;
+  transition: 0.5s;
+  position: absolute;
+  border-bottom: 2px solid #d266ac;
+}
+.navbar-links li:hover::before {
+  width: 75%;
+}
+.navbar-links li::after {
+  top: 0px;
+  width: 0%;
+  right: 0px;
+  content: "";
+  height: 100%;
+  transition: 0.5s;
+  position: absolute;
+  border-bottom: 2px solid #d266ac;
+}
+.navbar-links li:hover::after {
+  width: 22%;
+}
+
+/* button */
+.navbar-links button {
+  width: 10vw;
+  height: 6.5vh;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85em;
+  transition: 0.4s;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  background: #d268cc;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.navbar-links button:hover {
+  background: #e67de0;
+}
+
+/* Home-page */
+#landing-page {
+  gap: 10px;
+  width: 100%;
+  height: 82vh;
+  display: flex;
+  margin-top: 15px;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  padding: 30px 0px 0px 40px;
+}
+
+/*Left-Content  */
+.left-section {
+  gap: 20px;
+  width: 46vw;
+  height: 70vh;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+/* Left Content h1 */
+.left-section h1 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 30px;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.772);
+  font-family: "Anton SC", sans-serif;
+}
+
+/* left Content paragraph */
+.left-section p {
+  width: 35vw;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-left: 4px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 3.4vh;
+  font-optical-sizing: auto;
+  font-family: "Urbanist", sans-serif;
+}
+
+/* left Content Buttons */
+#buttons {
+  gap: 40px;
+  width: 25vw;
+  height: 10vh;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 4px;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.btns {
+  height: 7vh;
+  width: 10vw;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s;
+  font-size: 0.85em;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  background: #d266ac;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.btns:hover:nth-child(1) {
+  color: #d268cc;
+  background: transparent;
+  box-shadow: 0px 0px 4px #d268cc;
+}
+.btns:nth-child(2) {
+  background: transparent;
+  color: #d268cc;
+  box-shadow: 0px 0px 4px #d268cc;
+}
+.btns:hover:nth-child(2) {
+  color: white;
+  background: #d268cc;
+}
+
+/* Right-Section-PIC */
+.right-section {
+  width: 42vw;
+  height: 72vh;
+  /* border: 1px solid black; */
+}
+.right-section img {
+  width: 42vw;
+  height: 72vh;
+}
