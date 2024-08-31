@@ -1,0 +1,766 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width:800px) {
+    #navigation-bar{
+      background: var(--first-color);
+      position: sticky;
+      font-family:'Lora', serif;
+      font-size: 12px;
+      top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      height: 10vh;
+      z-index: 1;
+    }  
+  
+    .nav0-0{
+      display: flex;
+      cursor: pointer;
+      gap: 8px;
+      position: relative;
+      left: -45px;
+      justify-content: center;
+      align-items: center;
+      font-size: 8px;
+      text-decoration: none;
+      color: white;
+      height: 5vh;
+      width: 12vh;
+      transition: 0.5s;
+      /* border-radius: 10px; */
+    }
+
+    .nav0-0 p{
+      font-size: 8px;
+      position: relative;
+      top: 1px;
+      left: -5px;
+    }  
+
+    .nav0-00{
+      width: 15px;
+      fill: white;
+    }
+
+    .nav0-1{
+      color: white
+    }
+    .nav0-2{
+      display: flex;
+      position: relative;
+      left: 55px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 8px;
+      color: white;
+      height: 5vh;
+      background:linear-gradient(to right , rgba(21, 183, 228, 0.931) , rgba(6, 44, 184,0.6));
+      width: 20vh;
+      font-weight: bolder;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+    .nav0-1:nth-child(1),
+    .nav0-1:nth-child(2),
+    .nav0-1:nth-child(3),
+    .nav0-1:nth-child(4),
+    .nav0-1:nth-child(5){
+      transition: 0.5s;
+    }
+    .nav0-1:nth-child(1):hover,
+    .nav0-1:nth-child(2):hover,
+    .nav0-1:nth-child(3):hover,
+    .nav0-1:nth-child(4):hover,
+    .nav0-1:nth-child(5):hover{
+      transform: scale(1.2); 
+    }
+    .nav0-2svg{
+      height: 20px;
+      position:relative; 
+      left:3px; 
+      top:2px; 
+      fill:white;
+    }
+
+    .svg4{
+      transition: 0.5s;
+      width: 15px;
+    }
+  
+    .nav0-000{
+      transition: 0.5;
+      position: absolute;
+      transform: translate(2px , 3px);
+      width: 10px;
+      fill: white;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    #main-page{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./fa63d8a02c733c06b8c87bfbd3bacc6b.jpg);
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        z-index: 0;
+    }
+    .text{
+        position: relative;
+        top: 29vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .text1{
+        margin-top: 4px ;
+        position: relative;
+        top: 28vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Lora', serif;
+        font-size: 12px;
+    }
+    .btn1{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        transform: translate(260px,170px);
+        box-shadow: 0px 0px 3px white;
+        text-decoration: none;
+        background: rgb(234, 110, 27);
+        font-family:'Lora', serif;
+        color: white;
+        height: 6vh;
+        width: 22vh;
+        border-radius: 5px;
+        font-size: 8.5px;
+        transition: 0.5s;
+        font-weight: bolder;
+    }    
+    .btn1:hover{
+        background-color: #000000;
+        color: white;
+    }  
+    .btn2{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        transform: translate(415px,138px);
+        text-decoration: none;
+        background: rgb(234, 110, 27);
+        color: white;
+        height: 6vh;
+        width: 22vh;
+        font-family:'Lora', serif;
+        box-shadow: 0px 0px 3px white;
+        font-weight: bolder;
+        border-radius: 5px;
+        font-size: 9px;
+        transition: 0.5s;
+        /* border:1px solid white; */
+    }
+    .btn2:hover{
+        background-color: #000000;
+        color: white;
+    } 
+    .svg1{
+        fill: white;
+        height: 17px;
+        position: relative;
+        left: 1px;
+        transition: 0.5s;
+    }
+
+}
+
+
+@media screen  and (max-width:800px){
+    #working{
+        background: linear-gradient(to right,rgb(93, 7, 232),rgb(109, 5, 169));
+        width: 100%;
+        color: black;
+        height: 46vh;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .text3{
+        position: relative;
+        letter-spacing: 1px;
+        top: 30px;
+        font-size: 30px;
+        font-weight: 900;
+        font-family:'Oswald', sans-serif;
+        color: #000000;
+    }
+    .text4{
+        position: relative;
+        word-spacing: 1px;
+        top: 40px;
+        margin: auto;
+        font-size: 17px;
+        word-spacing: -1px;
+        font-family:'Lora', serif;
+        width: 120vh;   
+        color: #fff;
+    }
+    .text5{
+        margin: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 60px;
+        left: -70px;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        height: 5vh;
+        background-color: black;
+        width: 20vh;
+        font-family:'Lora', serif;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: 200;
+        transition: 0.5s;
+        box-shadow: 0px 0px 3px white;
+    }
+    .text5:hover{
+        box-shadow: 0px 0px 3px black;
+        background: transparent; 
+    }
+    .svg3{
+        fill: white;
+        position: relative;
+        left: 5px;
+        width: 15px;
+        transition: 0.5s;
+    }
+    .text5:hover .svg3{
+        fill: white;
+    }
+    .text6{
+        margin: auto;
+        display: flex;
+        position: relative;
+        top: 33px;
+        left: 80px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family:'Lora', serif;
+        text-decoration: none;
+        height: 5vh;
+        font-size: 11px;
+        width: 20vh;  
+        background-color: black;
+        border-radius: 5px;
+        font-weight: 200;
+        transition: 0.5s;
+        box-shadow: 0px 0px 3px white;
+    }
+    .text6:hover{
+        box-shadow: 0px 0px 3px black;
+        background: transparent;
+    }
+    .svg2{
+        fill: black;
+        position: relative;
+        width: 15px;
+        left: 5px;
+        transition: 0.5s;
+    }
+    .text6:hover .svg2{
+        fill: white;
+    }
+    
+}
+
+
+@media screen  and (max-width:800px){
+    #main-car{
+        height: 115vh;
+        width: 100%;
+        background-image: url(./pvsq5sQ-black-car-wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .car1{
+        position: relative;
+        top: 53px;
+        margin: auto; 
+        width: 140vh;
+        background-color: rgba(115, 109, 109, 0.1);
+        box-shadow: 0px 0px 1px white;
+        height: 95vh;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .car1-text{
+        font-size: 20px;
+        font-weight: bolder;
+        position: relative;
+        letter-spacing: 1.5px;
+        top: 30px;
+        font-family: 'Merriweather Sans', sans-serif;
+        left: 30px;
+        width: 60vh;
+        color: rgb(234, 110, 27);
+        cursor: pointer;
+    }
+    .car1-text1{
+        font-size: 18px;
+        position: relative;
+        font-family:'Lora', serif;
+        top: 60px;
+        width: 20vh;
+        left: 30px;
+        cursor: pointer;
+    }
+    .car1-btn1{
+        cursor: pointer;
+        text-decoration: none;
+        background: rgb(234, 110, 27);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 90px;
+        left: 30px;
+        width: 20vh;
+        height: 6vh;
+        border-radius: 5px;
+        transition: 0.5s;
+        font-size: 10px;
+        box-shadow: 0px 0px 3px white;
+    }
+    .car1-btn1:hover{
+        background: transparent;
+    }
+    .car1-price1{
+        position: relative;
+        font-family: 'Lora', serif;
+        font-size: 17px;
+        top: 120px;
+        left: 30px;
+        width: 20vh;
+        cursor: pointer;
+    }
+    .car1-power1{
+        color: white;
+        position: relative;
+        font-size: 13px;
+        top: 150px;
+        left: 30px;
+        width: 30vh;
+        cursor: pointer;
+    }
+    .car1-power2{
+        color: white;
+        position: relative;
+        font-size: 13px;
+        top: 165px;
+        left: 30px;
+        width: 17vh;
+        cursor: pointer;
+    }
+    .car1-power3{
+        color: white;
+        position: relative;
+        font-size: 13px;
+        top: 185px;
+        left: 30px;
+        width: 13vh;
+        cursor: pointer;
+    }    
+    .car-pic1{
+        margin: auto;
+        display: flex;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: -155px;
+        left: 85px;
+        overflow: hidden;
+        border-radius: 5px;
+        width: 95vh;
+        box-shadow: 0px 0px 1px white;
+        height: 70vh;
+    }
+    .car-pic2{
+        background-image: url(./67624-lamborghini-lamborghini-huracan-cars.jpg);
+        transition: 0.5s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+        height: 100%;
+        width: 100%;
+        cursor: zoom-in;
+    }
+    .car-pic1:hover .car-pic2{
+        transform: scale(1.1);
+    }
+    .car1-btn2{
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        background:rgb(234, 110, 27);
+        align-items: center;
+        position: relative;
+        top: 215px;
+        left: 30px;
+        width: 20vh;
+        height: 6vh;
+        border-radius: 5px;
+        transition: 0.5s ;
+        font-size: 10px;
+        box-shadow: 0px 0px 3px white;
+    
+    }
+    .car1-btn2:hover{
+        background: transparent;
+    }
+
+}    
+
+
+@media screen and (max-width:800px) {
+
+    #service{
+        width: 100%;
+        height: 55vh;
+        background: linear-gradient(to right , rgba(21, 183, 228, 0.931) , rgba(6, 44, 184,0.6));
+    }
+    .service-text1{
+        position: relative;
+        top: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        font-family:'Oswald', sans-serif;
+        color: #000000;
+        word-spacing: 1.5px;
+    }
+    .services{
+        /* border: 1px solid wheat; */
+        position: relative;
+        margin: auto;
+        display: flex;
+        gap: 45px;
+        width: 145vh;
+        margin: auto;
+        height: 30vh;
+        top: 20px;
+    }
+    .src1{
+        /* border: 1px solid white; */
+        background: rgba(115, 109, 109, 0.282);
+        cursor: pointer;
+        box-shadow: 0px 0px 1px white;
+        border-radius: 10px;
+        height: 18vh;
+        width: 18vh;
+        float: left;
+        position: relative;
+        top: 25px;
+        transition: 0.5s;
+        filter: grayscale(100%);
+    }
+    .src1:hover{
+        background: #000000;
+        filter: grayscale(0%);
+    }
+    .src1-1{
+        background: transparent;
+        position: relative;
+        margin: auto;
+        top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        transition: 0.5s;
+        border-radius: 10px;
+    }
+    .src1-text1{
+        font-size: 10px;
+        font-family: 'Lora', serif;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    .src2{
+        background: rgba(115, 109, 109, 0.282);
+        box-shadow: 0px 0px 1px white;
+        cursor: pointer;
+        transition:0.5s;
+        border-radius: 10px;
+        height: 18vh;
+        width: 18vh;
+        float: left;
+        position: relative;
+        top: 25px;
+        filter: grayscale(100%);
+    }
+    .src2:hover{
+        background: #000000;
+        filter: grayscale(0%);
+    }
+    .src3{
+        background: rgba(115, 109, 109, 0.282);
+        box-shadow: 0px 0px 1px white;
+        cursor: pointer;
+        transition:0.5s;
+        border-radius: 10px;
+        float: left;
+        height: 18vh;
+        width: 18vh;
+        position: relative;
+        top: 25px; 
+        filter: grayscale(100%);
+    } 
+    .src3:hover{
+        background: #000000;
+        filter: grayscale(0%);
+    }
+    .src4{
+        background: rgba(115, 109, 109, 0.282);
+        box-shadow: 0px 0px 1px white;
+        cursor: pointer;
+        transition:0.5s;
+        border-radius: 10px;
+        float: left;
+        height: 18vh;
+        width: 18vh;
+        position: relative;
+        top: 25px;
+        filter: grayscale(100%);
+    }
+    .src4:hover{
+        background: #000000;
+        filter: grayscale(0%);
+    }
+    .src5{
+        background: rgba(115, 109, 109, 0.282);
+        box-shadow: 0px 0px 1px white;
+        cursor: pointer;
+        transition:0.5s;
+        border-radius: 10px;
+        float: left;
+        height: 18vh;
+        width: 18vh;
+        position: relative;
+        top: 25px;
+        filter: grayscale(100%);
+    }
+    .src5:hover{
+        background: #000000;
+        filter: grayscale(0%);
+    }
+    .src6{
+        background: rgba(115, 109, 109, 0.282);
+        cursor: pointer;
+        box-shadow: 0px 0px 1px white;
+        transition:0.5s;
+        border-radius: 10px;
+        float: left;
+        height: 18vh;
+        width: 18vh;
+        position: relative;
+        top: 25px;
+        filter: grayscale(100%);
+    }
+    .src6:hover{
+        background: #000000;
+        filter: grayscale(0%);
+    }
+    .services-btn{
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        background-color: black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 25px;
+        width: 20vh;
+        height: 6vh;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out;
+        font-size: 8px;
+        box-shadow: 0px 0px 3px white;
+    }
+    .services-btn:hover{
+        box-shadow: 0px 0px 3px black;
+        background: transparent;
+    }
+    
+}
+
+
+@media screen and (max-width:800px) {
+    #choosing-us{
+        background: linear-gradient(to left , rgb(17, 15, 15) , rgba(10, 8, 8, 0.891));
+        height: 60vh;
+        width: 100%;
+    }
+    .choosing-text1{
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        letter-spacing: 1.5px;
+        top: 20px;
+        font-family:'Oswald', sans-serif;
+        font-weight: bolder;
+    }
+    .ofr1-4{
+        /* border: 1px solid white; */
+        display: flex;
+        gap: 22px;
+        position: relative;
+        top: 42px;
+        width: 145vh;
+        height: 40vh;
+        border-radius: 10px;
+    }
+    .ofr1{
+        position: relative;
+        box-shadow: 0px 0px 1px white;
+        background: rgba(115, 109, 109, 0.1);
+        top: 7px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 33vh;
+        height: 33vh;
+    }
+    .ofr1-svg1{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        text-align: center;
+        filter: grayscale(100%);
+        transition: 0.5s;
+    }
+    .ofr1:hover .ofr1-svg1{
+        filter: grayscale(0%);
+    }
+    .ofr1-txt1{
+        top: 15px;
+        font-size: 0.7rem;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        position: relative;
+        font-weight: bolder;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+    .ofr1-txt2{
+        top: 18px;
+        padding: 6px;
+        font-size: 0.7rem;
+        text-align: center;
+        position: relative;
+        box-sizing: border-box;
+        font-family: 'Lora', serif;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    
+    #About-sec{
+        position: relative;
+        color: black;
+        top: 125px;
+        height: 50vh;
+        width: 100%;
+        background: linear-gradient(to right ,rgb(21, rgb(19, 15, 15)20) , rgba(21, 20, 20, 0.533) );
+    }
+    #About{
+        /* font-weight: lighter; */
+        width: 100px;
+        font-size: 28px;
+        font-style: none;
+        margin-left: 45px;
+        top: -70px;
+        color: white;
+        position: relative;
+        font-family:'Oswald', anss-serif;
+    }
+    .About-opt{
+        /* border: 1px solid white; */
+        width: 135vh;
+        height: 45vh;
+        /* margin: auto; */
+        display: flex;
+        gap: 10px;
+        position: relative;
+        top: -40px;
+    }
+    .About-opt1{
+        /* border: 1px solid white; */
+        /* font-size: 20px; */
+        position: relative;
+        top: 2px;
+        color: white;
+        width: 30vh;
+        height: 40vh;
+        float: left;
+    }
+    .about-opt-txt{
+        font-family:'Oswald', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        position: relative;
+        margin-top: 20px;
+        left: -25px;
+    }
+    .about-opt-lst{
+        position: relative;
+        top:40px;
+        color: rgba(255, 255, 255, 0.887);
+        font-family:'Lora', serif;
+        width: 25vh;
+        font-size: 12px;
+        margin-top:10px;
+        margin-left:2px;
+    }
+    .about-opt-svg{
+        width: 20px;
+    }
+    .map{
+        margin-top: 55px;
+        margin-left: 5px;
+        box-shadow: 0px 0px 4px white;
+        border-radius: 10px;
+        width: 35vh;
+        height: 25vh;
+    }
+
+}
