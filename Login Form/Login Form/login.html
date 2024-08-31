@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main id="mainForm">
+        <form id="Form">
+
+            <h1>Login</h1>
+            
+            <div id="Input">
+                <input type="text" placeholder="Username" id="username" name="username" required min="4"/><i class='bx bxs-user-circle'></i>
+            </div>
+            
+            <div id="Input">
+                <input type="password" placeholder="Password" id="password" name="password" required /><i class='bx bx-low-vision' id="showPassword"></i>
+            </div>
+
+            <!-- <div><input type="checkbox"/><label>show password</label></div> -->
+            
+            <a href="signup.html" style="text-align: left;" class="forgotPassword">forgot password</a>
+            
+            <button id="loginButton"  type="submit">Login</button>
+            
+            <a href="signup.html">Don't have an account? Sign up</a>
+        
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

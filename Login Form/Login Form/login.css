@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Anton+SC&family=Asap:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Anton+SC&family=Asap:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Anton+SC&family=Asap:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap');
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#mainForm{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+}
+#mainForm::before{
+    right: 0px;
+    z-index: 0;
+    content: "";
+    left: 200px;
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    transform: rotate(300deg);
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+#Form{
+    gap: 20px;
+    z-index: 1;
+    width: 29vw;
+    height: 78vh;
+    padding: 30px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.167);
+    border: 1px solid rgba(255, 255, 255, 0.256);
+}
+#Form h1{
+    color: white;
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 10px 0px 10px 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+#Input{
+    height: 6vh;
+    position: relative;
+    margin-bottom: 5px;
+    /* border: 1px solid white; */
+}
+#Input input{
+    height: 6vh;
+    padding-left: 30px;
+    width: 49vh;
+    border: none;
+    caret-color: white; 
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+}
+input::placeholder{
+    font-weight: 600;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand", sans-serif;
+}
+input:focus{
+    outline: none;
+    border-bottom: 1px solid white;
+}
+#Input i{
+    top: 6px;
+    left: 0px;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+}
+#loginButton{
+    height: 7vh;
+    width: 54vh;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9em;
+    transition: 0.3s;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: "Fira Sans", sans-serif;
+    background: rgba(255, 255, 255, 0.27);
+}
+#loginButton:hover{
+    border: 1px white double;
+    background: rgba(255, 255, 255, 0.422);
+}
+#Form a{
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Quicksand", sans-serif;
+}
